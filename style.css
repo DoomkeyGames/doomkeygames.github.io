@@ -21,7 +21,7 @@
 }
 
 html {
-  font-size: 100%;
+  font-size: 16px;
   scroll-behavior: smooth;
 }
 
@@ -53,6 +53,7 @@ body {
 
 p {
   margin-bottom: 0.5rem;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,27 +65,27 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   margin-top: 0;
-  font-size: 3.052rem;
+  font-size: 48.83px;
 }
 
 h2 {
-  font-size: 2.441rem;
+  font-size: 39.06px;
 }
 
 h3 {
-  font-size: 1.953rem;
+  font-size: 31.25px;
 }
 
 h4 {
-  font-size: 1.563rem;
+  font-size: 25px;
 }
 
 h5 {
-  font-size: 1.25rem;
+  font-size: 20px;
 }
 
 small, .text_small {
-  font-size: 0.8rem;
+  font-size: 16px;
 }
 
 img {
@@ -190,7 +191,6 @@ section#hero div {
 section#hero h1 {
   color: #FFFFFF;
   font-weight: 700;
-  font-size: 4.768rem;
   text-align: right;
   line-height: 0.8;
   margin: 0;
@@ -204,7 +204,6 @@ section#hero p {
   margin-top: 2rem;
   max-width: 28.08rem;
   text-align: right;
-  font-size: 1.25rem;
 }
 section#hero:before {
   background: #1E2F2D;
@@ -281,14 +280,13 @@ section svg {
 
 footer {
   min-height: 112px;
-  padding: 34px 56px;
+  padding: 6vw 8vw;
   width: 100%;
   top: 0;
   left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 100px;
   position: relative;
 }
 footer ul {
@@ -306,20 +304,18 @@ footer ul li a {
   color: #FFFFFF;
   display: block;
   transition: all 0.3s;
-  font-size: 2rem;
   display: block;
 }
 footer ul li a:hover {
   color: #1E2F2D;
   transform: rotate(3deg);
 }
-footer p {
+footer h2 {
   line-height: 1;
 }
-footer p.brand {
+footer h2.brand {
   font-family: "Saira", sans-serif;
   font-weight: 600;
-  font-size: 1.9rem;
   margin-bottom: 8px;
 }
 
@@ -402,7 +398,7 @@ footer p.brand {
   background-size: cover;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-device-width: 767px) {
   header {
     justify-content: center;
     padding: 0px 40px;
@@ -416,7 +412,7 @@ footer p.brand {
   }
 
   footer {
-    padding: 34px 34px;
+    padding: 5vw 5vw;
     flex-flow: row wrap;
   }
 
@@ -430,14 +426,14 @@ footer p.brand {
     padding: 0 10vw 0 10vw;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-device-width: 768px) {
   header {
-    padding: 40px 40px;
+    padding: 4vw 6vw;
   }
 }
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-device-width: 1025px) {
   header {
-    padding: 40px 100px;
+    padding: 4vw 128px;
   }
 }
 @keyframes shwtitle {
