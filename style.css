@@ -21,7 +21,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 100%;
   scroll-behavior: smooth;
 }
 
@@ -30,16 +30,13 @@ html {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  -ms-overflow-style: none;
-  /* IE and Edge */
-  scrollbar-width: none;
-  /* Firefox */
 }
 
+/*
 ::-webkit-scrollbar {
   display: none;
 }
-
+*/
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -52,8 +49,7 @@ body {
 }
 
 p {
-  margin-bottom: 0.5rem;
-  font-size: 16px;
+  margin-bottom: 1rem;
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,27 +61,27 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   margin-top: 0;
-  font-size: 48.83px;
+  font-size: 3.052rem;
 }
 
 h2 {
-  font-size: 39.06px;
+  font-size: 2.441rem;
 }
 
 h3 {
-  font-size: 31.25px;
+  font-size: 1.953rem;
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 small, .text_small {
-  font-size: 16px;
+  font-size: 0.8rem;
 }
 
 img {
@@ -178,7 +174,6 @@ section div.con {
   position: relative;
 }
 section#hero {
-  width: 100vw;
   height: 800px;
   background: #37F1D3;
   display: flex;
@@ -191,6 +186,7 @@ section#hero div {
 section#hero h1 {
   color: #FFFFFF;
   font-weight: 700;
+  font-size: 3.768rem;
   text-align: right;
   line-height: 0.8;
   margin: 0;
@@ -204,6 +200,7 @@ section#hero p {
   margin-top: 2rem;
   max-width: 28.08rem;
   text-align: right;
+  font-size: 1.25rem;
 }
 section#hero:before {
   background: #1E2F2D;
@@ -244,7 +241,6 @@ section#showcase h1 {
   padding: 0 15vw 0 15vw;
 }
 section#contact-us {
-  width: 100vw;
   color: #FFFFFF;
 }
 section#contact-us:before {
@@ -304,6 +300,7 @@ footer ul li a {
   color: #FFFFFF;
   display: block;
   transition: all 0.3s;
+  font-size: 2rem;
   display: block;
 }
 footer ul li a:hover {
