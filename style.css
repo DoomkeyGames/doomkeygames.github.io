@@ -435,7 +435,7 @@ footer h2.brand {
     padding: 4vw 128px;
   }
   header.sticky {
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(4px);
   }
   header.sticky ul li a {
